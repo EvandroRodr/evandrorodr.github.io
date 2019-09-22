@@ -15,18 +15,28 @@ body {
 }
 
 .nav-custom {
-    background-color: rgba(58, 58, 58, 0.8);
+    background-color: rgb(237, 237, 237);
 }
 
 @media only screen and (max-width: 600px) {
     .main-nav {
-        font-size: 0.5em;
+        font-size: 0.8em;
         padding: 0;
     }
 }
 
+.main-nav > img {
+    padding: 5px;
+    width: 5%;
+    border-radius: 50%;
+}
+
 .push {
     margin-left: auto;
+}
+
+ul {
+    align-items: center;
 }
 
 li {
@@ -34,7 +44,7 @@ li {
 }
 
 a {
-    color: #f5f5f6;
+    color: black;
     text-decoration: none;
 }
 
@@ -45,7 +55,7 @@ a {
 }
 
 .cover {
-    height: 70vh; 
+    height: 50vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,4 +111,10 @@ a {
 .box > img {
     width: 100%;
     height: auto;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    background-color: rgba(237, 237, 237, 0.95);
 }
